@@ -1,22 +1,33 @@
 body {
-    
+    color: white;
+    background-color: rgb(75, 164, 247);
+    text-align: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
     }
     
     h1 {
-    
+    background-color: orange;
     }
     
     
     h2 {
-    
+    background-color: orange;
     }
     
     ol {
-    
+    background-color: white;
+    padding: 1em;
     }
     
     li {
-    
+    background-color: orangered;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     }
     
     p {
