@@ -1,6 +1,10 @@
 body    {
     background-color: #ccffcc;
     color: #336600;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+
   }
   
    h1   {
