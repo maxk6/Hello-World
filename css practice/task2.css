@@ -1,37 +1,21 @@
-body {
-    color: white;
-    background-color: rgb(75, 164, 247);
-    text-align: center;
-    }
-    
-    h1 {
-    background-color: orange;
-    text-align: left;
-   
-    }
-    
-    
-    h2 {
-    background-color: orange;
-    text-align: right;
-    padding-top: 1em;
-    border-bottom: 1em;
-    }
-    
-    ol {
-        list-style-position: inside;
-        column-count: 2;
-        column-gap: 6em;
-    background-color: white;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-left: 20em;
-    margin-right: 20em;
-
-    }
-    
-    li {
-    background-color: orangered;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    }
+/*selector here*/    {
+    background-color: #ccffcc;
+    color: #336600;
+  }
+  
+   /*selector here*/   {
+    background-color: #336600;
+    color: #ccffcc;
+  }
+  
+  /*selector here*/    {
+    border: 3px solid;
+  }
+  
+   /*selector here*/   {
+    background-color: #ffff99;
+  }
+  
+   /*selector here*/   {
+    text-decoration: underline;
+  }
