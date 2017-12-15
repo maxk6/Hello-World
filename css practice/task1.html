@@ -1,20 +1,36 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="task1.css">
+<!DOCTYPE html> 
+<!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-    <head>
-       <meta charset="utf-8">
-       <title>My HTML page</title>
-       <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       <h1>My H1 header</h1>
-       <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of of the list that follows, it is all contained within a single paragraph tag.
-       </p>
-       <ul>
-          <li>This is list item 1</li>
-          <li>Item 2 in the list</li>
-          <li>The third item in the list</li>
-          <li>Item 4 completes the list</li>
-       </ul>
-    </body>
- </html>
+  <head>
+    <title>Practice with Float</title>
+      <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h2>welcome greeting subtitle</h2>
+      <h1>Homepage Title</h1>
+    </header>
+    <section id="navigation">
+      <ul>
+        <li>nav link 1</li>
+        <li>nav link 2</li>
+        <li>nav link 3</li>
+        <li>nav link 4</li>
+      </ul>
+    </section>
+    <section id="content">
+      <div id="topRight">
+        If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The "float" property is one of the most powerful tools you can master when learning CSS.
+      </div>
+      <div id="topLeft">
+        Up until now, we haven't moved elements very far from wherever the web browser automatically places them, but as you've probably noticed this has left our page very left side heavy. 
+      </div>
+      <div id="bottomRight">
+        The float property liberates an element from its automatic position and lifts it up to "float" on top of other elements in the direction you specify.  You can specify float either right, left or the default of none.  
+      </div>
+      <div id="bottomLeft">
+        Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+      </div>
+    </section>
+  </body>
+</html>

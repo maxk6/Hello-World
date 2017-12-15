@@ -1,12 +1,30 @@
 body {
-    background-color: purple;
-}
-h1{
-    color: white;
-}
-p{
-    color: fuchsia
-}
-ul{
-    background-color: silver;
-}
+    background-color: #4ABDAC;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+  }
+  header {
+    background-color: #F7B733;
+  }
+  
+  h1 {
+  
+  }
+  
+  #navigation {
+  
+  }
+  
+  #navigation li:hover {
+  
+  }
+  #content {
+    background-color: #DFDCE3;
+  
+  }
+  
+  div {
+    background-color: #FC4A1A;
+  
+  }
+  
